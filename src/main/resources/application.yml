@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test_database
+    username: docker
+    password: docker
+    driverClassName: com.mysql.cj.jdbc.Driver
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  port: 9094
